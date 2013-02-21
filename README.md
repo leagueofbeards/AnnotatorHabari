@@ -1,4 +1,4 @@
-Annotator Habari Store
+Annotator Store for Habari
 ===============
 
 This plugin adds a backend [store] for the [Annotator] annotation system to your site or application built with [Habari]. Approximately half of the API calls are currently supported. We have plans to bring the other API endpoints online as soon as possible. Currently the store is focused on creating and retrievng annotations.
