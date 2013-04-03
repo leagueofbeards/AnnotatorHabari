@@ -6,6 +6,11 @@ class AnnotatePlugin extends Plugin
 		DB::register_table( 'annotations' );
 	}
 	
+	public function filter_autoload_dirs($dirs) {
+		$dirs[] = __DIR__ . '/classes';
+		return $dirs;
+	}
+	
 	public function action_plugin_activation( $plugin_file ) {
 		Post::add_new_type( 'annotation' );
 		$this->create_annotations_table();
