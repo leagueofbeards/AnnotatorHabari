@@ -6,6 +6,9 @@
 	<version>0.9.1-0.6</version>
 	<guid>8fea4789-0e48-4df3-ae21-dc8d721df214</guid>
 	<url>http://leagueofbeards.com/</url>
+	<tag>annotation</tag>
+	<tag>conversation</tag>
+	<tag>tools</tag>
 	<description><![CDATA[Add the ability for your users to annotate text on your site/app.]]></description>
 	<copyright>2013</copyright>	
 </pluggable>
